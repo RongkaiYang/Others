@@ -40,7 +40,7 @@ class encrypt {
         return true;
     }
 
-    /**
+    /*
      * 解密
      * @param string $string 加密密文
      * @param string $secretKey 密钥
@@ -57,7 +57,7 @@ class encrypt {
         return substr($decodeString, 40);
     }
 
-    /**
+    /*
      * 加密
      * @param string $string 需要加密的字符串
      * @param string $secretKey 密钥
@@ -69,7 +69,7 @@ class encrypt {
         return self::encryption(base64_encode(md5(time()).dechex(time()).self::$string));
     }
 
-    /**
+    /*
      * 加密解密算法
      * @param $string 需要处理的字符串
      * @return string
