@@ -21,7 +21,7 @@ class encrypt {
         '4', '5', '6', '7', '8', '9', '+', '/'
     ];
 
-    /**
+    /*
      * 初始化检查设置
      * @param string $string  需要加密、解密的字符串
      * @param string $secretKey  密钥
