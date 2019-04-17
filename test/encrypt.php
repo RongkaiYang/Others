@@ -109,3 +109,4 @@ $end = microtime(true);
 echo '<hr>';
 
 echo $end - $start;
+?>
