@@ -11,6 +11,10 @@ for($i = 0; $i < count($t); $i++){
         if ($a > $t[$j]){
             $t[$i] = $t[$j];
             $t[$j] = $a;
+            //for ($k = 0; $k < count($t); $k++){
+            //    echo ',',$t[$k];
+            //}
+            //echo '<br>';
         }
     }
 }
